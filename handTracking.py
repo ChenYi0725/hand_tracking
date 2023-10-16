@@ -3,7 +3,7 @@ import mediapipe as mp
 import time
 import csv
 
-#輸出格式-> 手指節點
+#輸出格式-> 手指節點、deltaX、deltaY
 
 capturedFrame = cv2.VideoCapture(0)         ##內部攝影機的編號為0
 fps = 20
